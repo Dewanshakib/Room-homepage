@@ -26,8 +26,8 @@ body {
 .warp_hero {
   height: 100%;
   width: 100%;
-  max-width: 1280px;
-  max-height: 881px;
+  max-width: 80rem;
+  max-height: 55.0625rem;
   margin: 0 auto;
 }
 .img_text_silder {
@@ -49,11 +49,11 @@ body {
 }
 .navlinks_d a {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 3.125rem;
   text-decoration: none;
   color: var(--White);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   border: none;
   outline: none;
   position: relative;
@@ -62,9 +62,9 @@ body {
   content: " ";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 0.125rem;
   background: var(--White);
-  bottom: -6px;
+  bottom: -0.375rem;
   left: 0px;
   transform: scale(0, 1);
   transition: transform 0.3s ease;
@@ -107,8 +107,8 @@ body {
   position: absolute;
   top: 34.2rem;
   left: 0rem;
-  width: 140px;
-  height: 70px;
+  width: 8.75rem;
+  height: 4.375rem;
   background: var(--Black);
   display: flex;
   cursor: pointer;
@@ -126,28 +126,29 @@ body {
   background: var(--Very-Dark-Gray);
 }
 .arw_div img {
-  width: 20px;
+  width: 1.25rem;
   height: auto;
 }
 .text_img_con img {
-  width: 28%;
+  width: 20.8rem;
   height: auto;
   object-fit: cover;
 }
 .text_info {
   height: 100%;
   padding: 3.6rem 3rem;
+  width: 38.4006rem;
 }
 .info_title {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--Black);
   text-transform: uppercase;
-  letter-spacing: 7px;
+  letter-spacing: 0.4375rem;
   margin-bottom: 0.9rem;
 }
 .info_para {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--Dark-Gray);
   line-height: 1.3rem;
@@ -169,7 +170,7 @@ body {
   .warp_hero {
     height: 100%;
     width: 100%;
-    max-width: 375px;
+    max-width: 23.4375rem;
     margin: 0 auto;
   }
   .img_text_silder {
@@ -224,9 +225,9 @@ body {
     padding: 2rem 1.5rem;
   }
   .info_title {
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 700;
-    letter-spacing: 7px;
+    letter-spacing: 0.4375rem;
     margin-bottom: 1.375rem;
   }
   .info_para {
@@ -237,8 +238,8 @@ body {
     position: absolute;
     top: -3.2rem;
     left: 16.55rem;
-    width: 110px;
-    height: 50px;
+    width: 6.875rem;
+    height: 3.125rem;
     background: var(--Black);
     display: flex;
     cursor: pointer;
@@ -248,25 +249,25 @@ body {
     top: 1rem;
     left: 1.5rem;
     width: ;
-    height: 50px;
+    height: 3.125rem;
     display: flex;
     align-items: center;
     gap: 8rem;
   }
   .ham-menu{
-    width: 25px;
+    width: 1.5625rem;
     height: auto;
     cursor: pointer;
   }
   .logo{
-    width: 60px;
+    width: 3.75rem;
     height: auto;
   }
   .navlinks_f_m{
     position: fixed;
     top: 0rem;
     left: 0rem;
-    width: 375px;
+    width: 23.4375rem;
     height: 14vh;
     background: var(--White);
     display: none;
@@ -281,16 +282,16 @@ body {
     align-items: center;
   }
   .close{
-    width: 20px;
+    width: 1.25rem;
     height: auto;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 1.25rem;
   }
   .warp_navlinks a{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--Black);
   }
   .blur_bg{
@@ -300,7 +301,7 @@ body {
     height: 86vh;
     background: #000;
     opacity: 0.3;
-    width: 375px;
+    width: 23.4375rem;
     display: none;
   }
   .blur_bg.active{
